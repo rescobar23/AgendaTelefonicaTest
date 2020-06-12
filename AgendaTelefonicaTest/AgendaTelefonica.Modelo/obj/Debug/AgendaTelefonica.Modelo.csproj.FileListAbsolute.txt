@@ -1,0 +1,6 @@
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Modelo\bin\Debug\AgendaTelefonica.Modelo.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Modelo\bin\Debug\AgendaTelefonica.Modelo.pdb
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Modelo\obj\Debug\AgendaTelefonica.Modelo.csprojAssemblyReference.cache
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Modelo\obj\Debug\AgendaTelefonica.Modelo.csproj.CoreCompileInputs.cache
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Modelo\obj\Debug\AgendaTelefonica.Modelo.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Modelo\obj\Debug\AgendaTelefonica.Modelo.pdb

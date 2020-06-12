@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "Agregar Contacto";
+}
+
+<h2>Agregar Contacto</h2>
+
+<div class="row" ng-app="Agenda" ng-controller="Add" >
+    <div class="col-md-6">
+        <form ng-submit="GuardarContacto()">
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Nombre</label>
+                </div>
+                <dvi class="col-md-9">
+                    <input type="text" class="form-control" ng-model="Nombre" />
+                </dvi>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Primer Apellido</label>
+                </div>
+                <dvi class="col-md-9">
+                    <input type="text" class="form-control" ng-model="PrimerApellido" />
+                </dvi>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Segundo Apellido</label>
+                </div>
+                <dvi class="col-md-9">
+                    <input type="text" class="form-control" ng-model="SegundoApellido" />
+                </dvi>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-condensed table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Numero</th>
+                                <th>Extensi&oacute;n</th>
+                                <th>Tipo Telefono</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="telefono in Telefonos">
+                                <td>
+                                    <span ng-if="!telefono.InEdit">
+                                        {{telefono.Numero}}
+                                    </span>
+                                    <input ng-if="telefono.InEdit" type="text" ng-model="telefono.Numero" class="form-control" />
+                                </td>
+                                <td>
+                                    <span ng-if="!telefono.InEdit">
+                                        {{telefono.Extension}}
+                                    </span>
+                                    <input ng-if="telefono.InEdit" type="text" ng-model="telefono.Extension" class="form-control" />
+                                </td>
+                                <td>
+                                    <div ng-if="!telefono.InEdit" ng-switch="telefono.TipoTelefono">
+                                        <span ng-switch-when="1">Celular</span>
+                                        <span ng-switch-when="2">Casa</span>
+                                        <span ng-switch-when="3">Oficina</span>
+                                    </div>
+                                    <select ng-if="telefono.InEdit" class="form-control" ng-model="telefono.TipoTelefono">
+                                        <option ng-value="1">Celular</option>
+                                        <option ng-value="2">Casa</option>
+                                        <option ng-value="3">Oficina</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <button ng-if="!telefono.InEdit" type="button" ng-click="telefono.InEdit=true;" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-edit"></span></button>
+                                    <button ng-if="telefono.InEdit" ng-click="telefono.InEdit=false;" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-ok"></span></button>
+                                    <button type="button" ng-click="EliminarTelefono(telefono)" class="btn btn-xs btn-danger"> <span class="glyphicon glyphicon-remove"></span></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <button type="button" class="btn btn-xs btn-info" ng-click="AgregarTelefono()"><span class="glyphicon glyphicon-plus"></span></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-save"></i> Guardar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

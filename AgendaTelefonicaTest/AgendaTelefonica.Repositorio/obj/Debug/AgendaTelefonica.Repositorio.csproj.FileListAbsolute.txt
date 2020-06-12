@@ -1,0 +1,14 @@
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\AgendaTelefonica.Repositorio.dll.config
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\AgendaTelefonica.Repositorio.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\AgendaTelefonica.Repositorio.pdb
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\AgendaTelefonica.Modelo.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\EntityFramework.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\AgendaTelefonica.Modelo.pdb
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\EntityFramework.xml
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\obj\Debug\AgendaTelefonica.Repositorio.csprojAssemblyReference.cache
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\obj\Debug\AgendaTelefonica.Repositorio.csproj.CoreCompileInputs.cache
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\obj\Debug\AgendaTelefonica.Repositorio.csproj.CopyComplete
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\obj\Debug\AgendaTelefonica.Repositorio.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Repositorio\obj\Debug\AgendaTelefonica.Repositorio.pdb

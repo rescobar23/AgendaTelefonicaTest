@@ -1,0 +1,9 @@
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\bin\Debug\AgendaTelefonica.Contrato.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\bin\Debug\AgendaTelefonica.Contrato.pdb
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\bin\Debug\AgendaTelefonica.Modelo.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\bin\Debug\AgendaTelefonica.Modelo.pdb
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\obj\Debug\AgendaTelefonica.Contrato.csprojAssemblyReference.cache
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\obj\Debug\AgendaTelefonica.Contrato.csproj.CoreCompileInputs.cache
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\obj\Debug\AgendaTelefonica.Contrato.csproj.CopyComplete
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\obj\Debug\AgendaTelefonica.Contrato.dll
+D:\Repos\GitHub\AgendaTelefonicaTest\AgendaTelefonicaTest\AgendaTelefonica.Contrato\obj\Debug\AgendaTelefonica.Contrato.pdb

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Agenda</h2>
+
+<div class="row" ng-app="Agenda" ng-controller="List" ng-init="GetContactos()">
+    <div class="col-md-12">
+        <a class="btn btn-xs btn-primary pull-right" href="AgregarContacto" title="Agregar Contacto"><span class="glyphicon glyphicon-user"></span> Agregar Contacto</a>
+        <br />
+        <table class="table table-condensed table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Primer Apellido</th>
+                    <th>Segundo Apellido</th>
+                    <th>Telefono principal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="contacto in Contactos">
+                    <td>{{contacto.IdContacto}}</td>
+                    <td>{{contacto.Nombre}}</td>
+                    <td>{{contacto.PrimerApellido}}</td>
+                    <td>{{contacto.SegundoApellido}}</td>
+                    <td ng-if="contacto.Telefonos">{{contacto.Telefonos[0].Numero}}</td>
+                    <td ng-if="!contacto.Telefonos"></td>
+                    <td>
+                        <a class="btn btn-xs btn-primary" href="EditarContacto/{{contacto.IdContacto}}" title="Ediatr Contacto"><span class="glyphicon glyphicon-edit"></span></a>
+                        <button type="button" class="btn btn-xs btn-danger" title="Eliminar Contacto" ng-click="EliminarContacto(contacto.IdContacto)"> <span class="glyphicon glyphicon-remove"></span></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
